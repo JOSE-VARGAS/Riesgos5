@@ -81,7 +81,7 @@ class Twitter{
 }
  
 $twitterObject = new Twitter();
-$jsonraw =  $twitterObject->getTweets("SEAT_Mexico");
+$jsonraw =  $twitterObject->getTweets("HONDA");
 $rawdata =  $twitterObject->getArrayTweets($jsonraw);
 $twitterObject->displayTable($rawdata);
  
